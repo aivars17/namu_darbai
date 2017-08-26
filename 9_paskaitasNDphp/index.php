@@ -28,7 +28,7 @@ function getTrucks($x,$y) {
 	<div class="container">
 		<div class="row">
 			<div class="col">
-				<table class="table table-striped table-hover table-bordered">
+				<table class="table table-hover table-bordered">
 						<thead class="thead-inverse">
 							<tr >
 								<th class="text-center" colspan='4'>Baseinai</th>
