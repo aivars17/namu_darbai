@@ -1,0 +1,29 @@
+.container {
+	background-color: grey;
+}
+.ticket {
+	background-color: red;
+	border:1px solid black;
+	padding: 30px;
+	margin: 10px;
+}
+.luky_number {
+	background-color: yellow;
+	border:1px solid black;
+	padding: 30px;
+	margin: 10px;
+}
+.skaicius {
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	padding: 50px 40px;
+	font-weight: bold;
+	font-size: 30px;
+}
+#end {
+	background-color: red;
+	color:white;
+	font-size: 30px;
+	font-weight: bold;
+}
