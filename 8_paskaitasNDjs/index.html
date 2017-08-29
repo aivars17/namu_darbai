@@ -17,7 +17,6 @@
 		</div>
 		<div class="row">
 			<button onclick="calc_number()" class="btn btn-primary" >Buy ticket</button>
-			
 			<button onclick="check_ticket()" type="button" class="btn btn-danger" >Check number</button>
 			<div class="col-6" id="end"></div>
 			<div class="col-1 text-center  skaicius" id="3"></div>
@@ -34,26 +33,21 @@
 			calc = Math.floor(Math.random() * 8)+1;
 			number.push(calc);
 			document.getElementById('1').innerHTML += calc + ",";
-			//document.getElementById('3').innerHTML = calc;
 
 			}
 		function calc_number() {
 			  var i;
 			  for (i = 0; i < 8; i++) {
 			    get_ticket();
-
-			   // document.getElementById(calc_number).display = none;
 				} 
 				f();
 	}
 	
 
-
 		function loto_ticket() {
 			var calc;
 			//calc_number();
 			calc = Math.floor(Math.random() * 8)+1;
-
 			lucky.push(calc);
 			document.getElementById('2').innerHTML += calc + ",";
 			document.getElementById('3').innerHTML = calc;
@@ -79,16 +73,15 @@
 		    	document.getElementById('end').innerHTML = 'Game end. Now check your ticket.';
     }
 }
-	//function check_ticket() {
-	//	if (var is_equal = number.length==lucky.length && number.every(function(v,i) { return ($.inArray(v,lucky) != -1)})) {
-	//		document.getElementById('end').innerHTML = "Win";
-	//	} else {
-	//		document.getElementById('end').innerHTML = "loos";
-	//	}
-		
-		
-
-	
-//}
+		var w = number.value;
+		var l = lucky.value;
+		function check_ticket() {
+		if (w === l) {
+			bla = "won";
+		}	else () {
+			bla = "loos";
+		}
+		document.getElementById('end').innerHTML = bla;
+} 
 	</script>
 </html>
